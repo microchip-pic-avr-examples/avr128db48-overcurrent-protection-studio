@@ -4,26 +4,26 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128db48-overcurrent-protection-studio",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Overcurrent Protection Using the Integrated Op Amps on AVR DB",
         "projectName": "avr128db48-overcurrent-protection-studio",
-        "shortDescription": "",
+        "shortDescription": "This repository provides a bare metal Microchip Studio project for a core independent overcurrent protection and handling with auto-calibration of current draw trigger level using the internal OPAMP, TCD and AC.",
         "ide": {
             "name": "STUDIO",
-            "semverRange": ""
+            "semverRange": ">=7.0.2542"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.6.76"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,17 +32,48 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Johan Vaarlid",
         "subcategories": [
+            [
+               "Peripherals", "OPAMP"
+            ],
+            [
+               "Peripherals", "AC"
+            ],
+            [
+               "Peripherals", "EVSYS"
+            ],
+            [
+               "Peripherals", "CCL"
+            ],
+            [
+               "Peripherals", "TCD"
+            ],
+            [
+               "Development Kit", "AVR128DB48 Curiosity Nano"
+            ]
         ],
         "peripherals": [
-        ],
+        
+            "OPAMP","AC","EVSYS","CCL", "TCD"
+	],
         "keywords": [
-        ],
+	    "Analog Signal Conditioning",
+	    "Operational Amplifier",
+	    "Op Amp",
+	    "Resistor Ladder",
+	    "D/A Converters",
+	    "Low BOM",
+	    "CIP",
+	    "Motor Control",
+	    "Comparators",
+	    "Fan Controllers",
+	    "overcurrent-protection"
+	],
 		"additionalData": {
 			"longDescription": {
 				"metaDataVersion": "1.0.0",
