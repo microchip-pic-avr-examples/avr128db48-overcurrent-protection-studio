@@ -29,7 +29,6 @@ A new feature introduced in the AVR® DB family is the Analog Signal Conditionin
 * 1x Signal Diode (D1)
 
 
-
 ## Setup
 * Hook up the circuit as shown in the figure below
 * For minimal noise, soldering the circuit onto a perfboard/stripboard is prefered, although a breadboard could be used with worse performance
